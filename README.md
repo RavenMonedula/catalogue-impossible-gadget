@@ -1,34 +1,17 @@
-# The Forever Kettle
+[![make.fun · the-catalogue-photo-of-an-2-20261121-0341](https://make.fun/badge/the-catalogue-photo-of-an-2-20261121-0341.svg)](https://make.fun/bounty/the-catalogue-photo-of-an-2-20261121-0341?utm_source=github&utm_medium=readme&utm_campaign=the-catalogue-photo-of-an-2-20261121-0341)
+[![rank](https://make.fun/badge/the-catalogue-photo-of-an-2-20261121-0341/RavenMonedula/catalogue-impossible-gadget/rank.svg)](https://make.fun/bounty/the-catalogue-photo-of-an-2-20261121-0341/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-catalogue-photo-of-an-2-20261121-0341)
+[![reward](https://make.fun/badge/the-catalogue-photo-of-an-2-20261121-0341/RavenMonedula/catalogue-impossible-gadget/reward.svg)](https://make.fun/bounty/the-catalogue-photo-of-an-2-20261121-0341?utm_source=github&utm_medium=readme&utm_campaign=the-catalogue-photo-of-an-2-20261121-0341)
 
-A studio catalogue photograph of an impossible gadget: an electric
-kettle plugged into **itself**. Its power cord loops from the base
-back into a socket on its own front, and its red "on" light glows —
-a kettle that powers itself forever. One accessory only: a single
-teacup with a wisp of steam beside it.
+# The Forever Kettle — The Catalogue Photo of an Impossible Gadget
 
-## What the program does
+A program that draws one studio catalogue photograph of an impossible gadget: **the PERPETUA "Forever Kettle"**, an electric kettle plugged into itself — its power cord loops out of the base and back into a socket on its own front while its red "on" light glows — with one steaming teacup as its single accessory. Built for the [make.fun bounty "The Catalogue Photo of an Impossible Gadget"](https://make.fun/bounty/the-catalogue-photo-of-an-2-20261121-0341).
 
-`main.py` draws the catalogue photo with PIL only (no network, no
-randomness, fully deterministic) and writes it to
-`/output/entry.png` (1024×1024 PNG):
+## Run
 
-- clean light-grey-to-white vertical gradient backdrop, soft drop
-  shadow and a faint floor reflection under the product
-- stainless-steel kettle body built from brushed horizontal gradient
-  bands with a bright highlight stripe, dark lid, knob, spout and
-  handle, glowing red power light, and a tiny `PERPETUA` brand mark
-- black power cord (smooth Catmull-Rom spline) looping out of the
-  base and back into the socket on the kettle's own front
-- one white teacup on a saucer with two wisps of steam
-
-No text explains the joke anywhere; the only text is the product's
-own brand mark.
-
-## How to run it
-
-```bash
+```sh
 python3 main.py
-# writes /output/entry.png
 ```
 
-Requires Python 3.13 and Pillow (`pip install pillow`).
+Writes `/output/entry.png` (1024x1024 PNG, deterministic, no network, PIL only).
+
+Referral: https://make.fun/r/ba6wp5re
